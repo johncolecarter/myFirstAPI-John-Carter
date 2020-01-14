@@ -1,0 +1,10 @@
+﻿using System;
+namespace MyFirstAPI.Models
+{
+    public class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string HairColor { get; set; }
+    }
+}
